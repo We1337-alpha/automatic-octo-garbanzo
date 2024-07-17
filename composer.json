@@ -1,0 +1,17 @@
+{
+    "name": "usuario/automatic-octo-garbanzo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "usuario",
+            "email": "olmedoamadis@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "^3.0"
+    }
+}
