@@ -4,5 +4,12 @@ namespace App\Core;
 
 class Controller
 {
-    // Base controller methods can be defined here
+    protected $db;
+
+    public function __construct()
+    {
+        $database = new Database();
+
+        $this->db = $database->getConnection();
+    }
 }

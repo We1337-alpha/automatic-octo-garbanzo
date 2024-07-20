@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        echo "Hello, World!";
+        require_once __DIR__ . '/../Views/index.php';
     }
 }
